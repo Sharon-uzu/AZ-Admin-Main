@@ -1,0 +1,435 @@
+.side{
+    background-color: #EFF0F1;
+    outline: .1px solid #f0f0f0;
+    width: 14%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    position: fixed;
+    padding-right: 10px;
+    z-index: 50;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.side .side-li{
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.75rem;
+}
+
+/* Registration */
+
+.reg-screen{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.reg-screen .reg-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.reg-screen .reg-cards a{
+    width: 30%;
+}
+
+.reg-screen .reg-cards a .reg-card{
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    padding: 38px 0;
+    border-radius: 12px;
+    box-shadow: 0px 12px  24px 0px #44444419;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reg-screen .reg-table{
+    width: 95%;
+    margin: auto;
+    padding: 0 1%;
+}
+
+.headtitle{
+    font-size: 2.2rem;
+    width: 80%;
+    margin-left: 3%;
+}
+
+tr{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    display: flex; 
+    align-items: center;
+    margin-top: 10px;
+    /* padding: 3px 2%; */
+}
+
+ .reg-table tr{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    display: flex; 
+    
+    align-items: center;
+    margin-top: 10px;
+    padding: 3px 2%;
+    font-size: 0px;
+}
+
+.reg-table tr th{
+    width: 25%;
+    padding: 0;
+}
+.reg-table tr td{
+    width: 25%;
+    padding: 10px 0;
+}
+
+.table-data{
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.table-header{
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.list-card-con{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.list-card-con .list-card{
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.v-text{
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+.v-button{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    font-size: 30px;
+}
+
+.list-card-con .list-card1{
+    width: fit-content;
+    margin-right: 19px;
+}
+
+
+
+
+
+.list-card-con .list-card1 .v-text{
+    font-size: 20px;
+    margin-right: 22px;
+}
+
+.list-card-con .list-card1 .v-button{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    font-size: 30px;
+    /* background-color: red; */
+}
+
+.vendor-list-table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    }
+
+/* .table-c{
+    color: red;
+} */
+
+.vendor-list-table tr th{
+    width: 7%;
+}
+
+.vendor-list-table tr th:nth-child(5){
+    width: 20%;
+}
+
+.vendor-list-table tr th:nth-child(1){
+    margin-left: 1rem;
+}
+
+
+.vendor-list-table tr td{
+    width: 7%;
+    text-align: center;
+}
+
+
+
+.vendor-list-table tr td:nth-child(5){
+    width: 20%;
+}
+
+
+.vendor-activity-table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    }
+
+.vendor-activity-table tr th{
+    width: 8%;
+}
+.vendor-activity-table tr td{
+    width: 8%;
+}
+
+.vendor-activity-table tr th:nth-child(1){
+    margin-left: 1rem;
+}
+
+/* Rider */
+.delivery tr th{
+    width: 12%;
+}
+.delivery tr th:nth-child(3){
+    width:25%;
+}
+
+.delivery tr td{
+    width: 12%;
+}
+.delivery tr td:nth-child(3){
+    width: 25%;
+}
+
+
+/* user */
+
+.user-list-table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.user-list-table tr th{
+    width: 9%;
+}
+.user-list-table tr td{
+    width: 9%;
+}
+
+.user-list-table tr th:nth-child(1){
+    margin-left: 1rem;
+}
+
+.user-list-table tr th:nth-child(1){
+    margin-left: 1rem;
+    width: 5%;
+}
+
+.user-list-table tr td:nth-child(1){
+    width: 4%;
+}
+
+.user-list-table tr th:nth-child(7){
+    width: 15%;
+}
+
+.user-list-table tr td:nth-child(7){
+    width: 15%;
+}
+
+.order-table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.order-table tr th{
+    width: 6%;
+}
+.order-table tr td{
+    width: 6%;
+}
+
+
+.order-table tr th:nth-child(1){
+    margin-left: 1rem;
+    width: 4%;
+}
+
+.order-table tr td:nth-child(1){
+    width: 4%;
+}
+
+.order-table tr th:nth-child(6){
+    width: 12%;
+}
+
+.order-table tr td:nth-child(6){
+    width: 12%;
+}
+
+.trans-table tr th:nth-child(5){
+    width: 12%;
+}
+
+.trans-table tr td:nth-child(5){
+    width: 12%;
+}
+
+.trans-table tr th:nth-child(6){
+    width: 6%;
+}
+
+.trans-table tr td:nth-child(6){
+    width: 6%;
+}
+
+/* payment */
+
+.invoice-table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    padding-right: 10px;
+}
+.invoice-table tr th{
+    width: 6%;
+}
+.invoice-table tr td{
+    width: 6%;
+}
+
+.invoice-table tr th:nth-child(1){
+    margin-left: 1rem;
+    width: 4%;
+}
+
+.invoice-table tr td:nth-child(1){
+    width: 4%;
+}
+
+.invoice-table tr th:nth-child(3){
+    width: 12%;
+}
+
+.invoice-table tr td:nth-child(3){
+    width: 12%;
+}
+
+.invoice-table tr th:nth-child(5){
+    width: 10%;
+}
+
+.invoice-table tr td:nth-child(5){
+    width: 10%;
+}
+
+.v-table tr th:nth-child(3){
+    width: 6%;
+}
+
+.v-table tr td:nth-child(3){
+    width: 6%;
+}
+
+.v-table tr th:nth-child(5){
+    width: 6%;
+}
+
+.v-table tr td:nth-child(5){
+    width: 6%;
+}
+
+
+/* customer support */
+
+.agent-h{
+    width: 20%;
+    /* background-color: red; */
+
+}
+
+.agent-table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+}
+.agent-table tr:nth-child(1){
+    padding: 0 9px;
+}
+.agent-table tr th{
+    width: 12%;
+    color: #EFF0F1;
+    font-size: 17px;
+}
+.agent-table tr td{
+    width: 12%;
+}
+
+.agent-table tr th:nth-child(5){
+    width: 27%;
+}
+.agent-table tr td:nth-child(5){
+    width: 27%;
+}
+
+/* user management */
+.manage-table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+}
+.manage-table tr{
+    padding: 0 9px;
+}
+.manage-table tr th{
+    width: 15%;
+    color: #EFF0F1;
+    font-size: 17px;
+}
+.manage-table tr td{
+    width: 15%;
+}
+
+.manage-table tr th:nth-child(1){
+    width: 25%;
+    
+}
+.manage-table tr td:nth-child(1){
+    width: 25%;
+   margin-left: 8px;
+}
