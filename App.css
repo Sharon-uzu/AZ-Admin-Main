@@ -116,7 +116,7 @@ tr{
 .list-card-con{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .list-card-con .list-card{
